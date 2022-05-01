@@ -2,8 +2,6 @@
 
 <div align="center"><img src="http://viayoo.com/en/images/logo.png" alt="Via Logo" height="100"/></div>
 
-English|[简体中文](https://github.com/tuyafeng/Via/blob/master/README_zh_CN.md)|[繁體中文](https://github.com/tuyafeng/Via/blob/master/README_zh_TW.md)|[Português](https://github.com/tuyafeng/Via/blob/master/README_pt_BR.md)
-
 ### 簡介
 
 Via 瀏覽器是擁有下列特色的強大瀏覽器：
@@ -17,7 +15,9 @@ Via 瀏覽器是擁有下列特色的強大瀏覽器：
 
 [自 Google Play 取得](https://play.google.com/store/apps/details?id=mark.via.gp)
 
-[自酷安取得](https://www.coolapk.com/apk/mark.via)
+[下載國際版本](https://res.viayoo.com/v1/via-release.apk)
+
+[下載中文版本](https://res.viayoo.com/v1/via-release-cn.apk)
 
 ### 協助在地化
 
