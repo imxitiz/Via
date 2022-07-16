@@ -255,7 +255,7 @@
     <string name="no_resource">此頁面無資源。</string>
     <string name="no_network_log">此頁面無網路記錄檔。</string>
     <string name="resource_sniffer_hint">\n在播放音樂或影片時，更容易偵測媒體檔案。在部分網站資源監聽無法運作。</string>
-    <string name="action_download">下載</string>
+    <string name="action_downloads">下載</string>
     <string name="empty_username_info">請輸入你的使用者名稱</string>
     <string name="empty_password_info">請輸入你的密碼</string>
     <string name="offline_page_hint">這些是儲存的網頁。甚至離線時，你也可以開啟。</string>
@@ -342,10 +342,8 @@
         \nexample.com###ad
     </string>
     <string name="help">說明</string>
-    <string name="learn_more">了解更多</string>
+    <string name="learn_more">瞭解更多</string>
     <plurals name="filters">
-        <item quantity="zero">0 條篩選條件</item>
-        <item quantity="one">1 條篩選條件</item>
         <item quantity="other">%d 條篩選條件</item>
     </plurals>
     <string name="updated_">%1$s 已更新</string>
@@ -368,12 +366,10 @@
     <string name="delete_account_request_submitted">賬號刪除申請已送出。</string>
     <string name="delete_account_message">送出刪除申請後，賬號將登出，進入 15 天的刪除等待期，登出期間如你再次登入賬號並上傳了資料，將導致刪除申請被撤回。等待期滿後，該賬號及相關資料將從伺服器完全刪除。\n請輸入密碼繼續。</string>
     <string name="confirm_to_delete">確定刪除</string>
-    <string name="items_selected">已選中 %1$d 項</string>
+    <string name="items_selected">已選中 %1d 項</string>
     <string name="select_all">全選</string>
     <string name="multi_choice">多選</string>
     <plurals name="delete_download_tasks">
-        <item quantity="zero">已刪除 0 項下載任務</item>
-        <item quantity="one">已刪除 1 項下載任務</item>
         <item quantity="other">已刪除 %d 項下載任務</item>
     </plurals>
     <string name="open_source_licenses">開源許可協議</string>
@@ -479,7 +475,7 @@
         %7$s
         <br />
     ]]></string>
-    <string name="no_certificate">該站點無證書。</string>
+    <string name="no_certificate">該網站無證書。</string>
     <string name="site_conf_enabled">網站設定 (已啟用)</string>
     <string name="do_not_sell_or_share">不出售或分享資料</string>
     <string name="do_not_sell_or_share_description">請求網站不出售或分享我的資料以保護隱私 (實驗性)</string>
@@ -538,4 +534,70 @@
     <string name="tineye_url">TinEye</string>
     <string name="login_username">使用者名稱 (賬號不存在將自動建立)</string>
     <string name="read_and_agree">請閱讀並同意 %1$s 與 %2$s</string>
+    <string name="wechat_official_account">微信公眾號</string>
+    <string name="notification_channel_downloads">下載內容</string>
+    <string name="notification_channel_foreground">前臺通知</string>
+    <string name="download_progress">%1$s/%2$s</string>
+    <string name="download_progress_indeterminate">%1$s</string>
+    <string name="download_progress_status">%1$s • %2$s</string>
+    <string name="download_status_paused">已暫停</string>
+    <string name="download_action_pause">暫停</string>
+    <string name="download_action_resume">恢復</string>
+    <string name="app_downloading_files">Via 正在下載檔案</string>
+    <string name="app_downloading_files_subtitle">點按即可檢視下載內容</string>
+    <string name="download_failed_with_code">下載失敗：%1$s (%2$d)</string>
+    <string name="built_in_download_manager">內建下載器</string>
+    <string name="cancel_all">取消全選</string>
+    <string name="message_delete_selected_download_tasks">你確定刪除這些下載任務嗎 (總共 %1$d 個任務)?</string>
+    <string name="file_name">檔名</string>
+    <string name="rename">重新命名</string>
+    <string name="download_error_file_io">I/O 錯誤</string>
+    <string name="download_error_network">網路錯誤</string>
+    <string name="download_error_unknown">未知錯誤</string>
+    <string name="message_re_download">你確定刪除已下載的檔案並重新下載 %1$s 嗎？</string>
+    <string name="share_image">分享圖片</string>
+    <string name="ssl_warning_insecure_connection_message">與 %1$s 的連線不安全：\n%2$s\n是否繼續？</string>
+    <string name="ssl_warning_dont_ask_again">本次瀏覽過程中不再詢問</string>
+    <string name="ssl_warning_certificate_untrusted">證書不受信任</string>
+    <string name="ssl_warning_certificate_date_invalid">證書日期無效</string>
+    <string name="ssl_warning_certificate_expired">證書已過期</string>
+    <string name="ssl_warning_certificate_domain_mismatch">證書域名與網站域名不匹配</string>
+    <string name="ssl_warning_certificate_invalid">證書無效</string>
+    <string name="ssl_warning_certificate_not_yet_valid">證書尚未生效</string>
+    <string name="the_site">該網站</string>
+    <string name="navigation_up">向上導航</string>
+    <string name="hide_popup_window">隱藏彈出式視窗</string>
+    <plurals name="open_tabs">
+        <item quantity="other">%d 個開啟的分頁</item>
+    </plurals>
+    <string name="qr_code">二維碼</string>
+    <string name="download_progress_speed">%1$s • %2$s</string>
+    <string name="download_progress_speed_eta">%1$s • %2$s • %3$s</string>
+    <string name="download_speed_unknown">N/A</string>
+    <string name="download_eta_unknown">-</string>
+    <plurals name="hours_left">
+        <item quantity="other">剩餘 %d 小時</item>
+    </plurals>
+    <plurals name="mins_left">
+        <item quantity="other">剩餘 %d 分鐘</item>
+    </plurals>
+    <plurals name="secs_left">
+        <item quantity="other">剩餘 %d 秒</item>
+    </plurals>
+    <string name="translation_engine_google">谷歌翻譯</string>
+    <string name="translation_engine_baidu">百度翻譯</string>
+    <string name="ignore_site_message_for_a_minute">忽略此網站訊息一分鐘</string>
+    <string name="download_status_waiting_for_network">等待網路連線</string>
+    <string name="download_failed_with_message">下載失敗：%1$s</string>
+    <string name="remove_identifying_headers">移除代理頭</string>
+    <string name="remove_identifying_headers_description">啟用後將置空 X-Requested-With 和 X-Wap-Profile 頭資訊，這可能會導致部分頁面表現異常</string>
+    <string name="agent_windows_chrome">Windows (Chrome)</string>
+    <string name="agent_windows_ie11">Windows (IE 11)</string>
+    <string name="agent_android_phone">Android (手機)</string>
+    <string name="agent_android_tablet">Android (平板)</string>
+    <string name="agent_ipad">iPad</string>
+    <string name="agent_osx">macOS</string>
+    <string name="toutiao_url">頭條</string>
+    <string name="title_can_not_be_empty">標題不能為空</string>
+    <string name="user_agent_can_not_be_empty">使用者代理不能為空</string>
 </resources>

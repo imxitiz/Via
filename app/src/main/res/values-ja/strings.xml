@@ -40,6 +40,14 @@
     <string name="no_certificate">このウェブサイトにはサーバ証明書が有りません</string>
     <string name="site_conf_enabled">Site configuration (Enabled)</string>
     
+    <!-- トップ | QRコード -->    
+    <string name="scan_qr_code">QRコード（二次元バーコード）をスキャン</string>
+    <string name="scan_qr_code_from_image">画像からQRコードをスキャンします</string>
+    <string name="switch_flash">フラッシュ</string>
+    <string name="qr_code_scan_result">QRコードのスキャン結果</string>
+    <string name="qr_code_not_detected">QRコードが見つかりませんでした</string>
+    <string name="save_qr_code_successfully">QRコードのデータをギャラリーに保存しました</string>
+    
     <!-- 設定｜一般｜アカウント -->    
     <string name="settings_cloud">アカウント</string>
     <string name="user">ログイン及び登録</string>
@@ -200,6 +208,7 @@
     <string name="import_bookmark_error">読み込めませんでした</string>
     <string name="message_add_bookmark">追加しました</string>
     <string name="bookmarks_imported">%1d つのブックマークを読み込みました</string>
+    <string name="bookmarks_exported_successfully">ブックマークのエクスポートが完了しました</string>
     
     <!-- 設定｜一般｜設定のインポート -->    
     <string name="import_data">設定のインポート</string>
@@ -211,6 +220,7 @@
     <string name="export_data_description">ブックマーク、設定、スクリプト及び広告ブロックフィルターをエクスポートします</string>
     <string name="export_data_to">エクスポート先: %1$s</string>
     <string name="data_file">データエクスポート</string>
+    <string name="data_exported_successfully">データのエクスポートが完了しました</string>
     
     <!-- 設定｜一般｜前回開いていたページを開く -->
     <string name="restore_tabs">前回開いていたページを開く</string>
@@ -239,6 +249,9 @@
     <string name="clear_website_icon_cache_message">この操作を行うと、ホームページ上のお気に入りのアイコンがすべて消去されますのでご注意ください。各アイコンは、次回、対応するウェブサイトにアクセスしたときにダウンロードされます。</string>
     <string name="reset_to_default_settings">設定を初期化する</string>
     <string name="use_line_style_search_box">検索ボックスをライン状にする</string>
+    <string name="search_bar_style">バースタイル</string>
+    <string name="search_bar_style_line">線</string>
+    <string name="search_bar_style_rectangle">長方形</string>
     
     <!-- 設定｜カスタマイズ｜ロゴ -->
     <string name="skin_logo">ロゴ</string>
@@ -255,16 +268,32 @@
     <string name="skin_colorful">長方形</string>
     <string name="skin_fruity">楕円形</string>
 
-    <!-- 設定｜カスタマイズ｜設定 -->
-    <string name="skin_hide_search_part">検索ボックスを非表示にする</string>
+    <!-- 設定｜カスタマイズ｜ブックマーク -->
+    <string name="favorites_icon_style">アイコン</string>
+    <string name="favorites_icon_style_text">テキスト</string>
+    <string name="favorites_icon_style_icon_first">サイトアイコン</string>
+    <string name="favorites_icon_color">アイコン色</string>
+    <string name="favorites_icon_color_colorful">カラー</string>
+    <string name="favorites_icon_color_transparent">透明</string>
+    
+    <!-- 設定｜カスタマイズ｜高度な設定 -->
+    <string name="search_bar_effect">バーのエフェクト</string>
+    <string name="search_bar_effect_blur">ぼかし</string>
+    <string name="search_bar_effect_transparent">透明</string>
+    <string name="search_part">サーチボックス</string>
+    <string name="search_part_hide">非表示</string>
+    <string name="search_part_show">表示</string>
     <string name="custom_css_special">カスタムCSSを追加</string>
-    <string name="background_opacity">背景の不透明度</string>
+    <string name="favorites_clear_icons">アイコンをリセット</string>
+    <string name="customization_reset">リセット</string>
 
     <!-- 設定｜プライバシー -->
     <string name="settings_privacy">プライバシー</string>    
     <string name="location">位置情報へのアクセスを許可する</string>
     <string name="do_not_track">Do Not Track（トラッキング拒否）</string>
     <string name="block_3rd_party_cookies">サードパーティーCookieをブロック</string>
+    <string name="remove_identifying_headers">識別用HTTPヘッダーを削除する</string>
+    <string name="remove_identifying_headers_description">有効にすると、「X-Requested-With」ヘッダーと「X-Wap-Profile」ヘッダーが削除され、一部のページで正常に表示されない場合があります。</string>
     <string name="do_not_sell_or_share">個人のデータを販売及び共有することを拒否する</string>
     <string name="do_not_sell_or_share_description">プライバシー保護のため、個人のデータを販売したり共有したりしないようにウェブサイトに要求する（試験中）</string>
     
@@ -279,6 +308,11 @@
     <string name="quick_back">戻る時に再読み込みをしない</string>
     <string name="web_page_debug">ウェブページのデバッグを有効にする</string>
     <string name="web_page_debug_info">開発者オプションにてUSBデバッグを有効にした状態でPCに接続し、PCのChromeで\"chrome://inspect\"を開いてください。</string>
+    <string name="allow_webpage_access_to_clipboard">ウェブページにクリップボードへのアクセスを許可する</string>
+    <string name="ask_to_allow_webpage_to_copy_text">%DOMAIN% からテキストをコピーしますか？</string>
+    <string name="ask_to_allow_webpage_to_paste_text">%DOMAIN% へテキストをペーストしますか？</string>
+    <string name="option_allow">許可</string>
+    <string name="option_deny">拒否</string>
     
     <!-- 設定｜スクリプト -->
     <string name="settings_script">スクリプト</string>
@@ -353,6 +387,15 @@
         <item quantity="one">1 アイテムを削除しました</item>
         <item quantity="other">%d アイテムを削除しました</item>
     </plurals>
+    <string name="file_name">ファイル名</string>
+    <string name="action_download_file">ダウンロード</string>
+    <string name="rename">リネーム</string>
+    <string name="download_error_file_io">I/O エラー</string>
+    <string name="download_error_network">ネットワークエラー</string>
+    <string name="download_error_unknown">不明なエラー</string>
+    <string name="message_re_download">ダウンロード済みの %1$s を削除して再ダウンロードしますか？</string>
+    <string name="app_downloading_files">Viaがファイルをダウンロード中です</string>
+    <string name="app_downloading_files_subtitle">タップしてダウンロードを表示</string>
 
     <!-- ポップアップ -->     
     <string name="entered_full_screen_mode">フルスクリーンモードに切り替えました</string>
@@ -516,6 +559,7 @@
     <string name="glean">落穂拾い</string>
     <string name="missing_webview">WebViewが正常にインストールしていません。インストールしますか？</string>
     <string name="action_pic_mode">画像のみ表示</string>
+    <string name="share_image">画像を共有</string>
     <string name="find_pre">前へ</string>
     <string name="find_next">次へ</string>
     <string name="action_modify">編集</string>
@@ -532,7 +576,7 @@
 
     <string name="res_log_hint">アイテムを表示するにはタップ、ダウンロードするには長押ししてください。</string>
 
-    <string name="action_download">ダウンロード</string>
+    <string name="action_downloads">ダウンロード</string>
     <string name="empty_username_info">ユーザー名を入力してください。</string>
     <string name="empty_password_info">パスワードを入力してください。</string>
     <string name="offline_page_hint">以下は保存済みページです。インターネット接続が無くても閲覧可能です。</string>

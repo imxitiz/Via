@@ -41,9 +41,9 @@
     <string name="action_delete_all">Excluir tudo</string>
     <string name="action_blank">Página em branco</string>
     <string name="agent_chrome">Chrome (PC)</string>
-    <string name="agent_ie">IE 11 (PC)</string>
-    <string name="agent_iphone">Safari (iPhone)</string>
-    <string name="agent_symbian">Nokia Browser</string>
+    <string name="agent_ie">Windows (IE 11)</string>
+    <string name="agent_iphone">iPhone</string>
+    <string name="agent_symbian">Symbian</string>
     <string name="agent_custom">Personalizado</string>
     <string name="dialog_download">Deseja baixar este arquivo?</string>
     <string name="title_warning">Atenção</string>
@@ -269,7 +269,7 @@
     <string name="no_resource">A página não possui recurso.</string>
     <string name="no_network_log">A página não possui log de rede.</string>
     <string name="resource_sniffer_hint">\nÉ mais fácil detectar arquivos de mídia enquanto a música ou o vídeo está sendo reproduzido. O botão de recursos não funciona em determinados sites.</string>
-    <string name="action_download">Downloads</string>
+    <string name="action_downloads">Downloads</string>
     <string name="empty_username_info">Por favor insira seu nome de usuário</string>
     <string name="empty_password_info">Por favor insira sua senha</string>
     <string name="offline_page_hint">Estas são páginas da Web salvas. Você pode abri-los mesmo quando estiver offline.</string>
@@ -550,5 +550,79 @@
     <string name="tineye_url">TinEye</string>
     <string name="login_username">Nome de usuário (caso a conta não exista ela será criada)</string>
     <string name="read_and_agree">Por favor, leia e concorde com %1$s e %2$s</string>
-
+    <string name="wechat_official_account">Conta oficial Wechat </string>
+    <string name="notification_channel_downloads">Baixar conteúdos</string>
+    <string name="notification_channel_foreground">Notificações em primeiro plano</string>
+    <string name="download_progress">%1$s/%2$s</string>
+    <string name="download_progress_indeterminate">%1$s</string>
+    <string name="download_progress_status">%1$s • %2$s</string>
+    <string name="download_status_paused">Pausado</string>
+    <string name="download_action_pause">Pausar</string>
+    <string name="download_action_resume">Resumir</string>
+    <string name="app_downloading_files">Via está baixando arquivos</string>
+    <string name="app_downloading_files_subtitle">Toque para ver os downloads</string>
+    <string name="download_failed_with_code">Download falhou: %1$s (%2$d)</string>
+    <string name="built_in_download_manager">Gerenciador de arquivos integrado</string>
+    <string name="cancel_all">Cancelar tudo</string>
+    <string name="message_delete_selected_download_tasks">Excluir estas tarefas de download (%1$d no total)?</string>
+    <string name="file_name">Nome do arquivo</string>
+    <string name="rename">Renomear</string>
+    <string name="download_error_file_io">I/O error</string>
+    <string name="download_error_network">Erro de internet</string>
+    <string name="download_error_unknown">Erro desconhecido</string>
+    <string name="message_re_download">Você tem certeza que deseja excluir o arquivo e refazer o download %1$s?</string>
+    <string name="share_image">Compartilhar imagem</string>
+    <string name="ssl_warning_insecure_connection_message">Conexão com %1$s não é segura:\n%2$s\nProsseguir mesmo assim?</string>
+    <string name="ssl_warning_dont_ask_again">Não pergunte novamente por essa sessão</string>
+    <string name="ssl_warning_certificate_untrusted">O certificado não é confiável</string>
+    <string name="ssl_warning_certificate_date_invalid">Data do certificado é inválida</string>
+    <string name="ssl_warning_certificate_expired">O certificado expirou</string>
+    <string name="ssl_warning_certificate_domain_mismatch">O domínio do certificado não corresponde ao domínio do site</string>
+    <string name="ssl_warning_certificate_invalid">O certificado é inválido</string>
+    <string name="ssl_warning_certificate_not_yet_valid">O certificado ainda não é válido</string>
+    <string name="the_site">O site</string>
+    <string name="navigation_up">Navegar para cima</string>
+    <string name="hide_popup_window">Ocultar janela pop-up</string>
+    <plurals name="open_tabs">
+        <item quantity="zero">Aba 0</item>
+        <item quantity="one">Aba 1</item>
+        <item quantity="other">Abas %d</item>
+    </plurals>
+    <string name="qr_code">QR code</string>
+    <string name="download_progress_speed">%1$s • %2$s</string>
+    <string name="download_progress_speed_eta">%1$s • %2$s • %3$s</string>
+    <string name="download_speed_unknown">N/A</string>
+    <string name="download_eta_unknown">-</string>
+    <plurals name="hours_left">
+        <item quantity="zero">0 horas restando</item>
+        <item quantity="one">1 hora restando</item>
+        <item quantity="other">%d horas restando</item>
+    </plurals>
+    <plurals name="mins_left">
+        <item quantity="zero">0 minutos restando</item>
+        <item quantity="one">1 minuto restando</item>
+        <item quantity="other">%d minutos restando</item>
+    </plurals>
+    <plurals name="secs_left">
+        <item quantity="zero">0 segundos restando</item>
+        <item quantity="one">1 segundo restando</item>
+        <item quantity="other">%d segundos restando</item>
+    </plurals>
+    <string name="translation_engine_google">Google tradutor</string>
+    <string name="translation_engine_baidu">Baidu tradutor</string>
+    <string name="ignore_site_message_for_a_minute">Ignore essa mensagem do site por 1 minuto</string>
+    <string name="download_status_waiting_for_network">Aguardando rede</string>
+    <string name="download_failed_with_message">Download falhou: %1$s</string>
+    <string name="remove_identifying_headers">Remover cabeçalhos de identificação</string>
+    <string name="remove_identifying_headers_description">Quando ativado, os cabeçalhos X-Requested-With e X-Wap-Profile ficarão vazios, o que pode fazer com que algumas páginas se comportem de forma anormal
+    </string>
+    <string name="agent_windows_chrome">Windows (Chrome)</string>
+    <string name="agent_windows_ie11">Windows (IE 11)</string>
+    <string name="agent_android_phone">Android (Celular)</string>
+    <string name="agent_android_tablet">Android (Tablet)</string>
+    <string name="agent_ipad">iPad</string>
+    <string name="agent_osx">macOS</string>
+    <string name="toutiao_url">Toutiao</string>
+    <string name="title_can_not_be_empty">O titulo não pode ficar vazio</string>
+    <string name="user_agent_can_not_be_empty">O agente de usuário não pode ficar vazio</string>
 </resources>
