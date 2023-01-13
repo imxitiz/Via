@@ -251,7 +251,7 @@
     <string name="file_size">File size: %1$s</string>
     <string name="search_by_image">Search by image</string>
     <string name="resource_sniffer">Resource sniffer</string>
-    <string name="res_log_hint">Press an item to preview, or long-press it to download or do something else.</string>
+    <string name="res_log_hint">The following is the resource log on page load.</string>
     <string name="no_resource">The page has no resource.</string>
     <string name="no_network_log">The page has no network log.</string>
     <string name="resource_sniffer_hint">\nIt is easier to detect media files while music or video is being played. Resource sniffer doesn\'t work on certain websites.</string>
@@ -613,4 +613,129 @@
     <string name="toutiao_url">Toutiao</string>
     <string name="title_can_not_be_empty">The title can not be empty</string>
     <string name="user_agent_can_not_be_empty">The user-agent can not be empty</string>
+    <string name="download_filter_all">All</string>
+    <string name="download_filter_others">Others</string>
+    <string name="download_filter_documents">Documents</string>
+    <string name="download_filter_images">Images</string>
+    <string name="download_filter_video">Video</string>
+    <string name="download_filter_apk">APK</string>
+    <string name="download_filter_audio">Audio</string>
+    <string name="download_filter_archives">Archives</string>
+    <string name="simple_guide_of_writing_userscript"><![CDATA[
+        <b>Metadata block</b><br />
+        The metadata must follow the format:<br />
+        <tt>
+        // ==UserScript==<br />
+        // @key value<br />
+        // ==/UserScript==
+        </tt>
+        <br /><br />
+        <b><tt>@name</tt></b>: The name of the userscript.
+        <br /><br />
+        <b><tt>@namespace</tt></b>: The combination of <tt>@namespace</tt> and <tt>@name</tt> is the unique identifier for a userscript.
+        <br /><br />
+        <b><tt>@match/@exclude-match</tt></b>: Define rules to decide whether a script should be executed. It is recommended to use <tt>@match</tt> instead of <tt>@include</tt>.
+        <br /><br />
+        <b><tt>@include/@exclude</tt></b>: The old way to decide whether a script should be executed.
+        <br /><br />
+        <b><tt>@version</tt></b>: The version of the userscript.
+        <br /><br />
+        <b><tt>@description</tt></b>: The description of the userscript.
+        <br /><br />
+        <b><tt>@author</tt></b>: The author of the userscript.
+        <br /><br />
+        <b><tt>@require</tt></b>: The require of the userscript. For example, <br /><tt>// @require https://my.cdn.com/jquery.js</tt>.
+        <br /><br />
+        <b><tt>@run-at</tt></b>: Decide when the script will execute. <tt>document-start</tt> is used to inject scripts before the page loads, <tt>document-end</tt> is used to inject scripts after page load.
+        <br /><br />
+        <b><tt>@grant</tt></b>: Specify which special GM_* APIs should be granted and can be used when the script executes.<br />
+        <br /><br />
+        <b><tt>@downloadURL</tt></b>: The URL the script can be downloaded from.
+        <br /><br />
+        <b><tt>@supportURL</tt></b>: The support URL of the userscript.
+        <br /><br />
+        <b><tt>@homepageURL</tt></b>: The homepage URL of the userscript.
+        <br /><br />
+        <b>GM_* APIs</b><br />
+        <tt>GM_*</tt> are a group of special APIs provided by Via. Currently supported special APIs include: <br/>
+        <tt>GM_getValue/GM_setValue/GM_deleteValue/GM_listValues/GM_getResourceText/GM_getResourceURL/GM_addElement/GM_addStyle/GM_setClipboard/GM_xmlhttpRequest/GM_download</tt>.
+        <br /><br />
+        <b>Matching</b><br />
+        <tt>@match</tt> defines a URL matching rule. <tt>@exclude-match</tt> defines a match rule but used to exclude the matched URLs, similar to <tt>@exclude</tt>.
+        <br /><br />
+        For example:<br />
+        <tt>
+        // @match https://www.google.com/something <br />
+        // @match https://www.google.com/any/* <br />
+        // @exclude-match https://www.google.com/any/not_me
+        </tt>
+        <br /><br />
+    ]]></string>
+    <string name="toast_install_script_successfully">Install \"%1$s\" successfully!</string>
+    <string name="toast_install_script_failed_unknown">Install \"%1$s\" failed!</string>
+    <string name="toast_install_script_failed_dependency_error">Download \"%1$s\" dependency failed!</string>
+    <string name="title_install_script">Install script</string>
+    <string name="message_install_script">Are you sure you want to install \"%1$s\"(%2$s)?</string>
+    <string name="title_reinstall_script">Re-install script</string>
+    <string name="message_reinstall_script">Are you sure you want to re-install \"%1$s\"(%2$s)?</string>
+    <string name="title_update_script">Update script</string>
+    <string name="message_update_script">Are you sure you want to update \"%1$s\"(%2$s -> %3$s)?</string>
+    <string name="toast_parsing_script">Parsing script…</string>
+    <string name="title_add_metadata_block">Add metadata block</string>
+    <string name="message_add_metadata_block">This script has no metadata block so it cannot be saved. Do you want to add a default metadata block to it?</string>
+    <string name="title_disable_safe_browsing">Disable safe browsing</string>
+    <string name="title_close_all_tabs">Close all tabs</string>
+    <string name="message_close_all_tabs_before_disabling_incognito_mode">Do you want to close all tabs before disabling incognito mode?</string>
+    <string name="action_close">Close</string>
+    <string name="action_keep">Keep</string>
+    <string name="desc_bookmark_folder">%1$s folder</string>
+    <string name="message_splash_agreement">By using Via, you agree to our %1$s and %2$s.</string>
+    <string name="translation_engine_google_in_page">Google in-page translate</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="action_view_cookies">View Cookies</string>
+    <string name="title_cookies_for_site">Cookies for %1$s</string>
+    <string name="message_no_cookies">No Cookies.</string>
+    <string name="toast_cookies_for_site_cleared">Cookies for %1$s have been set to empty</string>
+    <string name="toast_site_does_not_support_resource_sniffing">This site does not support resource sniffing</string>
+    <string name="desc_expand_text">Expand text</string>
+    <string name="desc_collapse_text">Collapse text</string>
+    <string name="desc_clear_text">Clear text</string>
+    <string name="title_search_suggestions">Search suggestions</string>
+    <string name="message_search_suggestions">When using the address bar, suggest</string>
+    <string name="title_open_tabs">Open tabs</string>
+    <string name="desc_fill_in_text">Fill in text</string>
+    <string name="directory_name">Directory name</string>
+    <string name="action_default_location">Default location</string>
+    <string name="action_choose_folder">Choose a folder…</string>
+    <string name="title_permission_denied">Permission denied</string>
+    <string name="message_reselect_download_location">The storage permission for the download location has been revoked. Please re-select the download folder location.</string>
+    <string name="detect_language">Detect language</string>
+    <string name="title_source_language">Source language</string>
+    <string name="title_target_language">Target language</string>
+    <string name="desc_swap_language">Swap language</string>
+    <string name="desc_paste_text">Paste text</string>
+    <string name="translation_engine_google_text">Google text translate</string>
+    <string name="sourcenao_url">SourceNAO</string>
+    <string name="iqdb_url">IQDB</string>
+    <string name="iqdb_3d_url">3D IQDB</string>
+    <string name="whatanime_url">WhatAnime</string>
+    <string name="ascii2d_url">Ascii2D</string>
+    <string name="title_scripts_for_site">Scripts for %1$s</string>
+    <string name="disabled">Disabled</string>
+    <string name="enabled">Enabled</string>
+    <string name="action_view_in_settings">View in settings</string>
+    <string name="message_delete_following_items">Are you sure you want to delete the following items?</string>
+    <string name="list_item">• %1$s</string>
+    <string name="action_reset">Reset</string>
+    <string name="title_reset_site_conf">Reset site configuration</string>
+    <string name="message_reset_site_conf">Are you sure you want to reset site configuration for %1$s?</string>
+    <string name="title_ignore_ssl_warnings">Ignore SSL certificate warnings</string>
+    <string name="title_ignore_ssl_warnings_description">Be careful, ignoring ssl certificate warnings may make connection to website insecure</string>
+    <string name="message_ignore_ssl_warnings">SSL certificates are used to verify website identities and encrypt connection. It\'s like putting a letter in an envelope and posting it, only you and the website can open envelope and read the letter.\n\nOnce you ignore the SSL warnings, the connection to the website may be insecure, which means that the data transmitted with the website may be stolen. It\'s like putting the letter in a broken envelope and posting it, someone who forged the certificate could open it.</string>
+    <string name="title_ignore_ssl_warnings_confirmation">I know this may make connection insecure</string>
+    <string name="title_disable_safe_browsing_description">Safe browsing allows WebView to protect against malware and phishing attacks by verifying the links</string>
+    <string name="action_close_all_tabs">Close all tabs</string>
+    <string name="action_close_other_tabs">Close other tabs</string>
+    <string name="action_close_tabs_to_the_bottom">Close tabs to the bottom</string>
+    <string name="action_close_tabs_to_the_top">Close tabs to the top</string>
 </resources>

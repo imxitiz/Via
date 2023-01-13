@@ -251,7 +251,7 @@
   <string name="file_size">Розмір файлу: %1$s</string>
   <string name="search_by_image">Пошук за зображенням</string>
   <string name="resource_sniffer">Аналіз ресурсів</string>
-  <string name="res_log_hint">Натисніть для перегляду, утримуйте для завантаження чи інших дій.</string>
+  <string name="res_log_hint">Нижче наведено журнал ресурсів під час завантаження сторінки.</string>
   <string name="no_resource">Ресурси відсутні</string>
   <string name="no_network_log">Мережевий журнал порожній</string>
   <string name="resource_sniffer_hint">\nАналіз ресурсів спрощується при відтворенні музики чи відео, але може не працювати на деяких сайтах.</string>
@@ -613,4 +613,110 @@
     <string name="toutiao_url">Toutiao</string>
     <string name="title_can_not_be_empty">Заголовок не може бути порожнім</string>
     <string name="user_agent_can_not_be_empty">Агент користувача не може бути порожнім</string>
+	<string name="download_filter_all">Всі</string>
+    <string name="download_filter_others">Інші</string>
+    <string name="download_filter_documents">Документи</string>
+    <string name="download_filter_images">Зображення</string>
+    <string name="download_filter_video">Відео</string>
+    <string name="download_filter_apk">APK</string>
+    <string name="download_filter_audio">Аудіо</string>
+    <string name="download_filter_archives">Архіви</string>
+    <string name="simple_guide_of_writing_userscript"><![CDATA[
+        <b>Блок метаданих</b><br />
+        Метадані мають відповідати формату:<br />
+        <tt>
+        // ==UserScript==<br />
+        // @key value<br />
+        // ==/UserScript==
+        </tt>
+        <br /><br />
+        <b><tt>@name</tt></b>: Ім\'я  користувацького скрипту.
+        <br /><br />
+        <b><tt>@namespace</tt></b>: Поєднання <tt>@namespace</tt> та <tt>@name</tt> є унікальним ідентифікатором користувацького скрипту.
+        <br /><br />
+        <b><tt>@match/@exclude-match</tt></b>: Правила, що визначають, чи слід виконувати скрипт. Рекомендується до використання <tt>@match</tt> замість <tt>@include</tt>.
+        <br /><br />
+        <b><tt>@include/@exclude</tt></b>: Старий спосіб вирішення, чи слід виконувати скрипт.
+        <br /><br />
+        <b><tt>@version</tt></b>: Версія користувацького скрипту.
+        <br /><br />
+        <b><tt>@description</tt></b>: Опис користувацького скрипту.
+        <br /><br />
+        <b><tt>@author</tt></b>: Автор користувацького скрипту.
+        <br /><br />
+        <b><tt>@require</tt></b>: Вимоги користувацького скрипту. Наприклад, <br /><tt>// @require https://my.cdn.com/jquery.js</tt>.
+        <br /><br />
+        <b><tt>@run-at</tt></b>: Визначає, коли буде виконано скрипт. <tt>document-start</tt> використовується для введення скриптів перед завантаженням сторінки, <tt>document-end</tt> використовується для введення скриптів після завантаження сторінки.
+        <br /><br />
+        <b><tt>@grant</tt></b>: Вказує, який спеціальний GM_* APIs має бути надано та може використовуватися під час виконання скрипту.<br />
+        <br /><br />
+        <b><tt>@downloadURL</tt></b>: URL-адреса, з якої можна завантажити скрипт.
+        <br /><br />
+        <b><tt>@supportURL</tt></b>: URL-адреса підтримки користувацького скрипту.
+        <br /><br />
+        <b><tt>@homepageURL</tt></b>: URL-адреса головної сторінки користувацького скрипту.
+        <br /><br />
+        <b>GM_* APIs</b><br />
+        <tt>GM_*</tt> це група спеціальних API, наданих Via. Наразі спеціальні API, що підтримуються, включають: <br/>
+        <tt>GM_getValue/GM_setValue/GM_deleteValue/GM_listValues/GM_getResourceText/GM_getResourceURL/GM_addElement/GM_addStyle/GM_setClipboard/GM_xmlhttpRequest/GM_download</tt>.
+        <br /><br />
+        <b>Зіставлення</b><br />
+        <tt>@match</tt> визначає правило відповідності URL. <tt>@exclude-match</tt> визначає правило відповідності, але використовується для виключення відповідних URL-адрес, подібних до <tt>@exclude</tt>.
+        <br /><br />
+        Наприклад:<br />
+        <tt>
+        // @match https://www.google.com/something <br />
+        // @match https://www.google.com/any/* <br />
+        // @exclude-match https://www.google.com/any/not_me
+        </tt>
+        <br /><br />
+    ]]></string>
+    <string name="toast_install_script_successfully">\"%1$s\" успішно встановлено!</string>
+    <string name="toast_install_script_failed_unknown">\"%1$s\" не вдалося встановити!</string>
+    <string name="toast_install_script_failed_dependency_error">Завантаження \"%1$s\" залежності невдале!</string>
+    <string name="title_install_script">Встановити скрипт</string>
+    <string name="message_install_script">Ви впевнені, що хочете встановити \"%1$s\"(%2$s)?</string>
+    <string name="title_reinstall_script">Перевстановлення скрипту</string>
+    <string name="message_reinstall_script">Ви впевнені, що хочете перевстановити \"%1$s\"(%2$s)?</string>
+    <string name="title_update_script">Оновити скрипт</string>
+    <string name="message_update_script">Ви впевнені, що хочете оновити \"%1$s\"(%2$s -> %3$s)?</string>
+    <string name="toast_parsing_script">Розбір скрипту…</string>
+	<string name="title_add_metadata_block">Додати блок метаданих</string>
+    <string name="message_add_metadata_block">Цей скрипт не має блоку метаданих, тому його неможливо зберегти. Бажаєте додати до нього стандартний блок метаданих?</string>
+    <string name="title_disable_safe_browsing">Вимкнути безпечний перегляд</string>
+    <string name="title_close_all_tabs">Закрити всі вкладки</string>
+    <string name="message_close_all_tabs_before_disabling_incognito_mode">Бажаєте закрити всі вкладки, перш ніж вимкнути режим інкогніто?</string>
+    <string name="action_close">Закрити</string>
+    <string name="action_keep">Залишити</string>
+    <string name="desc_bookmark_folder">Тека %1$s</string>
+    <string name="message_splash_agreement">Використовуючи Via, ви погоджуєтесь з нашими: %1$s та %2$s.</string>
+    <string name="translation_engine_google_in_page">Перекладач сторінок Google</string>
+    <string name="title_feedback">Зворотній зв\'язок</string>
+    <string name="action_view_cookies">Перегляд Cookies</string>
+    <string name="title_cookies_for_site">Cookies для %1$s</string>
+    <string name="message_no_cookies">Немає Cookies.</string>
+    <string name="toast_cookies_for_site_cleared">Cookies для %1$s порожні</string>
+    <string name="toast_site_does_not_support_resource_sniffing">Цей сайт не підтримує аналіз ресурсів</string>
+    <string name="desc_expand_text">Розгорнути текст</string>
+    <string name="desc_collapse_text">Згорнути текст</string>
+    <string name="desc_clear_text">Очистити текст</string>
+    <string name="title_search_suggestions">Пошукові пропозиції</string>
+    <string name="message_search_suggestions">Пропонувати при використанні адресного рядка</string>
+    <string name="title_open_tabs">Відкрити вкладки</string>
+    <string name="desc_fill_in_text">Заповнити текст</string>
+    <string name="directory_name">Ім\'я теки</string>
+    <string name="action_default_location">Тека за умовчанням</string>
+    <string name="action_choose_folder">Вибір теки…</string>
+    <string name="title_permission_denied">Відмовлено в дозволі</string>
+    <string name="message_reselect_download_location">Дозвіл до сховища для завантаження відкликано. Ще раз виберіть розташування папки для завантаження.</string>
+    <string name="detect_language">Визначити мову</string>
+    <string name="title_source_language">Мова оригіналу</string>
+    <string name="title_target_language">Мова перекладу</string>
+    <string name="desc_swap_language">Змінити мови</string>
+    <string name="desc_paste_text">Вставити текст</string>
+    <string name="translation_engine_google_text">Перекладач тексту Google</string>
+    <string name="title_scripts_for_site">Скрипти для %1$s</string>
+    <string name="disabled">Вимкнено</string>
+    <string name="enabled">Увімкнено</string>
+    <string name="action_view_in_settings">Переглянути в налаштуваннях</string>
 </resources>

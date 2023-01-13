@@ -251,7 +251,7 @@
     <string name="file_size">Размер файла: %1$s</string>
     <string name="search_by_image">Поиск по изображению</string>
     <string name="resource_sniffer">Анализ ресурсов</string>
-    <string name="res_log_hint">Нажмите для просмотра, удерживайте для загрузки или других действий.</string>
+    <string name="res_log_hint">Ниже представлен перечень ресурсов загруженной страницы.</string>
     <string name="no_resource">Ресурсы отсутствуют</string>
     <string name="no_network_log">Сетевой журнал пуст</string>
     <string name="resource_sniffer_hint">\nАнализ ресурсов упрощается при воспроизведении музыки или видео, но всё равно может не работать на некоторых сайтах.</string>
@@ -551,7 +551,7 @@
     <string name="app_downloading_files">Via загружает файлы</string>
     <string name="app_downloading_files_subtitle">Нажмите для просмотра загрузок</string>
     <string name="download_failed_with_code">Ошибка загрузки: %1$s (%2$d)</string>
-    <string name="built_in_download_manager">Встроенный менеджер загрузок</string>
+    <string name="built_in_download_manager">Встроенный</string>
     <string name="cancel_all">Отменить все</string>
     <string name="message_delete_selected_download_tasks">Удалить загрузки (всего: %1$d)?</string>
     <string name="file_name">Имя файла</string>
@@ -608,4 +608,129 @@
     <string name="toutiao_url">Toutiao</string>
     <string name="title_can_not_be_empty">Заголовок не может быть пустым</string>
     <string name="user_agent_can_not_be_empty">Значение UserAgent не может быть пустым</string>
+    <string name="download_filter_all">Все</string>
+    <string name="download_filter_others">Другие</string>
+    <string name="download_filter_documents">Документы</string>
+    <string name="download_filter_images">Изображения</string>
+    <string name="download_filter_video">Видео</string>
+    <string name="download_filter_apk">APK</string>
+    <string name="download_filter_audio">Аудио</string>
+    <string name="download_filter_archives">Архивы</string>
+    <string name="simple_guide_of_writing_userscript"><![CDATA[
+        <b>Блок метаданных</b><br />
+        Метаданные должны соответствовать формату:<br />
+        <tt>
+        // ==UserScript==<br />
+        // @ключ значение<br />
+        // ==/UserScript==
+        </tt>
+        <br /><br />
+        <b><tt>@name</tt></b>: название пользовательского скрипта.
+        <br /><br />
+        <b><tt>@namespace</tt></b>: комбинация <tt>@namespace</tt> и <tt>@name</tt> является уникальным идентификатором пользовательского скрипта.
+        <br /><br />
+        <b><tt>@match/@exclude-match</tt></b>: правила, определяющие, следует ли выполнять скрипт. Рекомендуется использовать <tt>@match</tt> вместо <tt>@include</tt>.
+        <br /><br />
+        <b><tt>@include/@exclude</tt></b>: старый способ определения необходимости выполнения скрипта.
+        <br /><br />
+        <b><tt>@version</tt></b>: версия пользовательского скрипта.
+        <br /><br />
+        <b><tt>@description</tt></b>: описание пользовательского скрипта.
+        <br /><br />
+        <b><tt>@author</tt></b>: автор пользовательского скрипта.
+        <br /><br />
+        <b><tt>@require</tt></b>: зависимости пользовательского скрипта. Например, <br /><tt>// @require https://my.cdn.com/jquery.js</tt>.
+        <br /><br />
+        <b><tt>@run-at</tt></b>: определяет момент запуска скрипта. <tt>document-start</tt> используется для встраивания скриптов перед загрузкой страницы, <tt>document-end</tt> используется для встраивания скриптов после загрузки страницы.
+        <br /><br />
+        <b><tt>@grant</tt></b>: определяет, какие специальные API GM_* должны быть предоставлены и могут быть использованы при выполнении скрипта.<br />
+        <br /><br />
+        <b><tt>@downloadURL</tt></b>: URL загрузки пользовательского скрипта.
+        <br /><br />
+        <b><tt>@supportURL</tt></b>: URL поддержки пользовательского скрипта.
+        <br /><br />
+        <b><tt>@homepageURL</tt></b>: URL домашней страницы пользовательского скрипта.
+        <br /><br />
+        <b>API GM_*</b><br />
+        <tt>GM_*</tt> — это группа специальных API, предоставляемая Via. В настоящий момент специальные API включают в себя: <br/>
+        <tt>GM_getValue/GM_setValue/GM_deleteValue/GM_listValues/GM_getResourceText/GM_getResourceURL/GM_addElement/GM_addStyle/GM_setClipboard/GM_xmlhttpRequest/GM_download</tt>.
+        <br /><br />
+        <b>Сопоставление</b><br />
+        <tt>@match</tt> определяет правило сопоставления URL. <tt>@exclude-match</tt> определяет правило сопоставления, но используется для исключения совпадающих URL, аналогично <tt>@exclude</tt>.
+        <br /><br />
+        Например:<br />
+        <tt>
+        // @match https://www.google.com/something <br />
+        // @match https://www.google.com/any/* <br />
+        // @exclude-match https://www.google.com/any/not_me
+        </tt>
+        <br /><br />
+    ]]></string>
+    <string name="toast_install_script_successfully">\"%1$s\" успешно установлен!</string>
+    <string name="toast_install_script_failed_unknown">Невозможно установить \"%1$s\"!</string>
+    <string name="toast_install_script_failed_dependency_error">Невозможно загрузить зависимость для \"%1$s\"!</string>
+    <string name="title_install_script">Установить скрипт</string>
+    <string name="message_install_script">Установить \"%1$s\" (%2$s)?</string>
+    <string name="title_reinstall_script">Переустановить скрипт</string>
+    <string name="message_reinstall_script">Переустановить \"%1$s\" (%2$s)?</string>
+    <string name="title_update_script">Обновить скрипт</string>
+    <string name="message_update_script">Обновить \"%1$s\" (%2$s → %3$s)?</string>
+    <string name="toast_parsing_script">Анализ скрипта…</string>
+    <string name="title_add_metadata_block">Добавить блок метаданных</string>
+    <string name="message_add_metadata_block">Скрипт не содержит блока метаданных, поэтому его нельзя сохранить. Добавить стандартный блок метаданных?</string>
+    <string name="title_disable_safe_browsing">Отключить безопасный просмотр</string>
+    <string name="title_close_all_tabs">Закрыть все вкладки</string>
+    <string name="message_close_all_tabs_before_disabling_incognito_mode">Закрыть все вкладки перед отключением режима инкогнито?</string>
+    <string name="action_close">Закрыть</string>
+    <string name="action_keep">Оставить</string>
+    <string name="desc_bookmark_folder">Папка %1$s</string>
+    <string name="message_splash_agreement">Используя Via, вы соглашаетесь с %1$s и %2$s.</string>
+    <string name="translation_engine_google_in_page">Перевод страниц Google</string>
+    <string name="title_feedback">Обратная связь</string>
+    <string name="action_view_cookies">Просмотр cookies</string>
+    <string name="title_cookies_for_site">Cookies для %1$s</string>
+    <string name="message_no_cookies">Нет cookies.</string>
+    <string name="toast_cookies_for_site_cleared">Cookies для %1$s очищены</string>
+    <string name="toast_site_does_not_support_resource_sniffing">Этот сайт не поддерживает анализ ресурсов</string>
+    <string name="desc_expand_text">Развернуть текст</string>
+    <string name="desc_collapse_text">Свернуть текст</string>
+    <string name="desc_clear_text">Очистить текст</string>
+    <string name="title_search_suggestions">Поисковые предложения</string>
+    <string name="message_search_suggestions">При использовании адресной строки предлагать</string>
+    <string name="title_open_tabs">Открыть вкладки</string>
+    <string name="desc_fill_in_text">Заполнить текст</string>
+    <string name="directory_name">Имя папки</string>
+    <string name="action_default_location">Папка по умолчанию</string>
+    <string name="action_choose_folder">Выбор папки…</string>
+    <string name="title_permission_denied">В разрешении отказано</string>
+    <string name="message_reselect_download_location">Разрешение на доступ к хранилищу для выполнения загрузки по указанному пути было отозвано. Выберите папку загрузки ещё раз.</string>
+    <string name="detect_language">Определить язык</string>
+    <string name="title_source_language">Язык оригинала</string>
+    <string name="title_target_language">Язык перевода</string>
+    <string name="desc_swap_language">Поменять языки</string>
+    <string name="desc_paste_text">Вставить текст</string>
+    <string name="translation_engine_google_text">Перевод текста Google</string>
+    <string name="sourcenao_url">SourceNAO</string>
+    <string name="iqdb_url">IQDB</string>
+    <string name="iqdb_3d_url">3D IQDB</string>
+    <string name="whatanime_url">WhatAnime</string>
+    <string name="ascii2d_url">Ascii2D</string>
+    <string name="title_scripts_for_site">Скрипты для %1$s</string>
+    <string name="disabled">Отключено</string>
+    <string name="enabled">Включено</string>
+    <string name="action_view_in_settings">Открыть в настройках</string>
+    <string name="message_delete_following_items">Удалить следующие элементы?</string>
+    <string name="list_item">• %1$s</string>
+    <string name="action_reset">Сброс</string>
+    <string name="title_reset_site_conf">Сброс настроек сайта</string>
+    <string name="message_reset_site_conf">Сбросить настройки сайта %1$s?</string>
+    <string name="title_ignore_ssl_warnings">Игнорировать предупреждения о SSL-сертификатах</string>
+    <string name="title_ignore_ssl_warnings_description">Будьте осторожны, игнорирование предупреждений о SSL-сертификате может сделать подключение к сайту небезопасным.</string>
+    <string name="message_ignore_ssl_warnings">SSL-сертификаты используются для проверки подлинности сайта и шифрования подключения. Это как положить письмо в конверт и отправить его по почте, т.е. только вы и сайт можете открыть конверт и прочитать письмо.\n\nЕсли вы проигнорируете предупреждения о SSL, подключение к сайту может быть небезопасным, а это значит, что данные, передаваемые с сайта, могут быть украдены. Это как отправить письмо по почте в разорванном конверте, чтобы тот, кто подделал сертификат, мог свободно вскрыть и прочитать его.</string>
+    <string name="title_ignore_ssl_warnings_confirmation">Я понимаю, что это может сделать подключение небезопасным</string>
+    <string name="title_disable_safe_browsing_description">Безопасный просмотр позволяет WebView защищаться от вредоносных программ и фишинговых атак путём проверки ссылок</string>
+    <string name="action_close_all_tabs">Закрыть все вкладки</string>
+    <string name="action_close_other_tabs">Закрыть другие вкладки</string>
+    <string name="action_close_tabs_to_the_bottom">Закрыть вкладки ниже</string>
+    <string name="action_close_tabs_to_the_top">Закрыть вкладки выше</string>
 </resources>

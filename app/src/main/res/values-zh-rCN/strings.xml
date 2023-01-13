@@ -23,7 +23,7 @@
     <string name="location">允许站点访问地理位置</string>
     <string name="password">保存密码</string>
     <string name="donate">捐助我们</string>
-    <string name="donate_details">我们利用有限的业余时间设计了 Via，虽然它并不那么美好，但正努力前行。\n如果你喜欢我们的作品，可以捐赠来支持我们。\n\n所有的捐赠都将用来：提升我们的环境配置以及积极性。\n\n支付宝: 2376688759@qq.com\nPayPal: wiar1824@gmail.com</string>
+    <string name="donate_details">我们利用有限的业余时间设计了 Via，虽然它并不那么美好，但正努力前行。\n如果你喜欢我们的作品，可以捐赠来支持我们。\n\n所有的捐赠都将用来：提升我们的环境配置以及积极性。\n\n支付宝：2376688759@qq.com\nPayPal：wiar1824@gmail.com</string>
     <string name="orientation">屏幕方向</string>
     <string name="follow_system">跟随系统</string>
     <string name="orientation_auto">自动</string>
@@ -77,11 +77,11 @@
     <string name="sougou_url">搜狗</string>
     <string name="block_ads">广告拦截</string>
     <string name="message_untrusted_certificate">当前站点证书不被信任，是否继续？</string>
-    <string name="message_date_invalid_certificate">当前站点证书日期无效，是否继续?</string>
-    <string name="message_expired_certificate">当前站点证书已过期，是否继续?</string>
-    <string name="message_hostname_mismatch_certificate">当前站点证书与主机名不匹配，是否继续?</string>
-    <string name="message_invalid_certificate">当前站点证书无效，是否继续?</string>
-    <string name="message_not_yet_valid_certificate">当前站点证书还未生效，是否继续?</string>
+    <string name="message_date_invalid_certificate">当前站点证书日期无效，是否继续？</string>
+    <string name="message_expired_certificate">当前站点证书已过期，是否继续？</string>
+    <string name="message_hostname_mismatch_certificate">当前站点证书与主机名不匹配，是否继续？</string>
+    <string name="message_invalid_certificate">当前站点证书无效，是否继续？</string>
+    <string name="message_not_yet_valid_certificate">当前站点证书还未生效，是否继续？</string>
     <string name="title_form_resubmission">表单提交</string>
     <string name="message_form_resubmission">你确定发送数据吗？</string>
     <string name="message_location">\n想使用你的位置信息</string>
@@ -96,7 +96,7 @@
     <string name="image_on">有图模式</string>
     <string name="title_file_chooser">文件选择</string>
     <string name="import_bookmarks">导入书签</string>
-    <string name="export_bookmarks_to">书签备份到: %1$s</string>
+    <string name="export_bookmarks_to">书签备份到：%1$s</string>
     <string name="import_bookmark_error">无法导入</string>
     <string name="message_add_bookmark">已添加书签</string>
     <string name="message_exit">再按一次返回键退出</string>
@@ -132,9 +132,9 @@
     <string name="url_box_domain">域名</string>
     <string name="action_pcview">电脑模式</string>
     <string name="action_source">源码</string>
-    <string name="action_translate">翻译网页</string>
+    <string name="action_translate">翻译</string>
     <string name="title_edit_folder">编辑文件夹</string>
-    <string name="msg_delete_folder">你想要删除此文件夹吗?</string>
+    <string name="msg_delete_folder">你想要删除此文件夹吗？</string>
     <string name="desc_suggestion">建议</string>
     <string name="desc_home">主页</string>
     <string name="desc_tab">标签</string>
@@ -187,26 +187,26 @@
     <string name="block_popup">拦截弹出窗口</string>
     <string name="action_save_web_page">保存网页</string>
     <string name="action_saved_pages">离线页面</string>
-    <string name="saved_page_successfully">网页已保存至: 书签 > 离线页面</string>
-    <string name="deleted_failed">删除失败, 文件位于下载目录: </string>
+    <string name="saved_page_successfully">网页已保存至：书签 > 离线页面</string>
+    <string name="deleted_failed">删除失败，文件位于下载目录：</string>
     <string name="empty_hint">空空如也&#8230;</string>
     <string name="network_log">网络日志</string>
     <string name="conn_timeout">连接超时</string>
     <string name="already_default">已是默认浏览器</string>
-    <string name="set_to_default">为了顺利完成设置将打开一个链接(%1$s), 请选择用 Via 打开。</string>
+    <string name="set_to_default">为了顺利完成设置将打开一个链接(%1$s)，请选择用 Via 打开。</string>
     <string name="sync_prompt">这将覆盖掉你当前的书签和设置，是否继续？</string>
     <string name="upload_prompt">将你当前的书签和设置上传到云端，是否继续？</string>
     <string name="none">无</string>
     <string name="check_permission">没有权限。现在去设置它们吗？</string>
     <string name="need_permission_hint">Via 需要下列权限保证运行。\n\n</string>
-    <string name="storage_permission">存储空间: 为了下载文件及导入导出书签等。\n\n</string>
-    <string name="location_permission">位置信息: 为了一些站点例如天气网站获取地理位置, 设置里默认是关闭的, 如果开启会弹出对话框提示是否允许站点访问位置。\n\n</string>
+    <string name="storage_permission">存储空间：为了下载文件及导入导出书签等。\n\n</string>
+    <string name="location_permission">位置信息：为了一些站点例如天气网站获取地理位置，设置里默认是关闭的，如果开启会弹出对话框提示是否允许站点访问位置。\n\n</string>
     <string name="force_cancel">强制取消</string>
     <string name="restore_tabs_hint">你想要恢复上次会话未关闭的标签页吗？</string>
     <string name="restore_tabs">启动时恢复未关闭标签</string>
-    <string name="install_success">安装成功!</string>
-    <string name="uninstall_success">卸载成功!</string>
-    <string name="log_page_hint">所有拦截规则存储在 %1$s\n你可以手动编辑它来修改规则, 或长按下列任一条目来选择是否拦截。</string>
+    <string name="install_success">安装成功！</string>
+    <string name="uninstall_success">卸载成功！</string>
+    <string name="log_page_hint">所有拦截规则存储在 %1$s\n你可以手动编辑它来修改规则，或长按下列任一条目来选择是否拦截。</string>
     <string name="fullscreen_1">滑动来显示/隐藏</string>
     <string name="fullscreen_2">点击来显示/隐藏</string>
     <string name="settings_script">脚本</string>
@@ -224,7 +224,7 @@
     <string name="set_it_as_homepage">你想要将它设置为首页吗？</string>
     <string name="missing_webview">Android System WebView 未正确安装。现在去安装？</string>
     <string name="install">安装</string>
-    <string name="crash_hint">真的非常非常抱歉, 应用发生了闪退。</string>
+    <string name="crash_hint">真的非常非常抱歉，应用发生了闪退。</string>
     <string name="glean">拾穗</string>
     <string name="contact_us">联系我们</string>
     <string name="official_website">官方网站</string>
@@ -241,21 +241,21 @@
     <string name="export_bookmarks">备份书签</string>
     <string name="pull_to_refresh_gesture">下拉刷新</string>
     <string name="back_forward_gesture">滑动屏幕前进后退</string>
-    <string name="toolbar_settings_hint">点击下列按钮来设置它的长按事件, 长按查看它的事件。你也可以滑动工具栏来设置滑动事件。</string>
+    <string name="toolbar_settings_hint">点击下列按钮来设置它的长按事件，长按查看它的事件。你也可以滑动工具栏来设置滑动事件。</string>
     <string name="action_modify">修改</string>
-    <string name="operation_hint">手势, 快捷方式，功能键</string>
-    <string name="adblock_info">已拦截 %1$d 个广告, 共节省 %2$s</string>
+    <string name="operation_hint">手势，快捷方式，功能键</string>
+    <string name="adblock_info">已拦截 %1$d 个广告，共节省 %2$s</string>
     <string name="disable">未启用</string>
     <string name="ui_traditional">传统</string>
     <string name="color_mode_hint">浏览网页时操作栏自适应色彩</string>
     <string name="skin_hide_search_part">隐藏搜索部分</string>
-    <string name="file_size">文件大小: %1$s</string>
+    <string name="file_size">文件大小：%1$s</string>
     <string name="search_by_image">以图搜图</string>
     <string name="resource_sniffer">资源嗅探</string>
-    <string name="res_log_hint">点击项目来预览, 长按项目来下载或进行其它操作。</string>
+    <string name="res_log_hint">下列是网页加载中的资源日志。</string>
     <string name="no_resource">这个页面没有资源。</string>
     <string name="no_network_log">这个页面没有网络日志。</string>
-    <string name="resource_sniffer_hint">\n注: 音乐或视频在播放时更容易被获取。资源嗅探不支持部分网站。</string>
+    <string name="resource_sniffer_hint">\n注：音乐或视频在播放时更容易被获取。资源嗅探不支持部分网站。</string>
     <string name="action_downloads">下载</string>
     <string name="empty_username_info">请填写你的用户名。</string>
     <string name="empty_password_info">请填写你的密码。</string>
@@ -276,19 +276,19 @@
     <string name="force_enable_zoom">强制缩放</string>
     <string name="set_ua_as">已设置当前浏览器标识为%1$s</string>
     <string name="import_data">导入数据</string>
-    <string name="import_data_failed">导入数据失败!</string>
-    <string name="import_data_succeed">导入数据成功!</string>
+    <string name="import_data_failed">导入数据失败！</string>
+    <string name="import_data_succeed">导入数据成功！</string>
     <string name="export_data">导出数据</string>
-    <string name="export_data_to">导出数据到: %1$s</string>
+    <string name="export_data_to">导出数据到：%1$s</string>
     <string name="always_restore">总是恢复</string>
     <string name="ask_first">优先询问</string>
     <string name="disable_restore">禁用恢复</string>
     <string name="data_file">导出数据</string>
-    <string name="bookmarks_data_to_long">书签数据达到了服务器不能承受之重, 将不会上传, 但其他数据可以正常上传。继续上传吗?</string>
+    <string name="bookmarks_data_to_long">书签数据达到了服务器不能承受之重，将不会上传，但其他数据可以正常上传。继续上传吗？</string>
     <string name="restore_tabs_hint_settings">开启\"隐身模式\"时不会恢复未关闭标签。</string>
     <string name="ignore_secondary_ssl_error">忽略次要的 SSL 证书错误</string>
     <string name="web_page_debug">允许调试网页</string>
-    <string name="web_page_debug_info">现在你可以将手机连上电脑, 然后在 Chrome 电脑版上通过 \"chrome://inspect\" 来调试网页。别忘了先开启设置中开发者选项里的 USB 调试。</string>
+    <string name="web_page_debug_info">现在你可以将手机连上电脑，然后在 Chrome 电脑版上通过 \"chrome://inspect\" 来调试网页。别忘了先开启设置中开发者选项里的 USB 调试。</string>
     <string name="no_download_tasks">没有下载任务。</string>
     <string name="action_re_download">重新下载</string>
     <string name="action_copy_download_link">复制下载链接</string>
@@ -306,11 +306,11 @@
     <string name="cloud_data_server">云同步服务器</string>
     <string name="chinese_server">国内</string>
     <string name="global_server">全球</string>
-    <string name="server_message">服务器间的数据不同步, 切换后将需要重新登录。</string>
-    <string name="delete_bookmark_folder_message">这会同时删除 %1$s 文件夹内的书签, 确定要删除吗？</string>
+    <string name="server_message">服务器间的数据不同步，切换后将需要重新登录。</string>
+    <string name="delete_bookmark_folder_message">这会同时删除 %1$s 文件夹内的书签，确定要删除吗？</string>
     <string name="action_new">新建</string>
-    <string name="block_hint">拦截了: %1$s\n刷新网页生效。</string>
-    <string name="unblock_hint">放行了: %1$s\n刷新网页生效。</string>
+    <string name="block_hint">拦截了：%1$s\n刷新网页生效。</string>
+    <string name="unblock_hint">放行了：%1$s\n刷新网页生效。</string>
     <string name="block_3rd_party_cookies">拦截第三方 Cookies</string>
     <string name="enable_site_conf">启用 \"%1$s\" 的网站设定</string>
     <string name="site_conf">网站设定</string>
@@ -549,7 +549,7 @@
     <string name="download_failed_with_code">下载失败：%1$s (%2$d)</string>
     <string name="built_in_download_manager">内建下载器</string>
     <string name="cancel_all">取消全选</string>
-    <string name="message_delete_selected_download_tasks">你确认删除这些下载任务吗 (总共 %1$d 个任务)?</string>
+    <string name="message_delete_selected_download_tasks">你确认删除这些下载任务吗 (总共 %1$d 个任务)？</string>
     <string name="file_name">文件名</string>
     <string name="rename">重命名</string>
     <string name="download_error_file_io">I/O 错误</string>
@@ -601,4 +601,129 @@
     <string name="toutiao_url">头条</string>
     <string name="title_can_not_be_empty">标题不能为空</string>
     <string name="user_agent_can_not_be_empty">浏览器标识不能为空</string>
+    <string name="download_filter_all">全部</string>
+    <string name="download_filter_others">其它</string>
+    <string name="download_filter_documents">文档</string>
+    <string name="download_filter_images">图片</string>
+    <string name="download_filter_video">视频</string>
+    <string name="download_filter_apk">安装包</string>
+    <string name="download_filter_audio">音频</string>
+    <string name="download_filter_archives">压缩包</string>
+    <string name="simple_guide_of_writing_userscript"><![CDATA[
+        <b>Metadata 块</b><br />
+        Metadata 必须使用如下格式:<br />
+        <tt>
+        // ==UserScript==<br />
+        // @key value<br />
+        // ==/UserScript==
+        </tt>
+        <br /><br />
+        <b><tt>@name</tt></b>：脚本名称。
+        <br /><br />
+        <b><tt>@namespace</tt></b>：<tt>@namespace</tt> 和 <tt>@name</tt> 是脚本的唯一 ID。
+        <br /><br />
+        <b><tt>@match/@exclude-match</tt></b>：定义了脚本的作用域。推荐使用 <tt>@match</tt> 而不是 <tt>@include</tt>。
+        <br /><br />
+        <b><tt>@include/@exclude</tt></b>：旧版本中定义作用域的方式。
+        <br /><br />
+        <b><tt>@version</tt></b>：脚本版本。
+        <br /><br />
+        <b><tt>@description</tt></b>：脚本描述。
+        <br /><br />
+        <b><tt>@author</tt></b>：脚本作者。
+        <br /><br />
+        <b><tt>@require</tt></b>：脚本的前置依赖，例如： <br /><tt>// @require https://my.cdn.com/jquery.js</tt>。
+        <br /><br />
+        <b><tt>@run-at</tt></b>：脚本的运行时机。 <tt>document-start</tt> 用于在页面加载前注入脚本， <tt>document-end</tt> 用于在页面加载完成后注入脚本。
+        <br /><br />
+        <b><tt>@grant</tt></b>：定义脚本所使用和应被授权的特殊 GM_* API。<br />
+        <br /><br />
+        <b><tt>@downloadURL</tt></b>：脚本的下载地址。
+        <br /><br />
+        <b><tt>@supportURL</tt></b>：脚本的支持地址。
+        <br /><br />
+        <b><tt>@homepageURL</tt></b>：脚本的主页。
+        <br /><br />
+        <b>GM_* API</b><br />
+        <tt>GM_*</tt> 是一组 Via 提供的特殊 API 集合。当前支持的特殊 API 包括：<br/>
+        <tt>GM_getValue/GM_setValue/GM_deleteValue/GM_listValues/GM_getResourceText/GM_getResourceURL/GM_addElement/GM_addStyle/GM_setClipboard/GM_xmlhttpRequest/GM_download</tt>.
+        <br /><br />
+        <b>匹配</b><br />
+        <tt>@match</tt> 定义了脚本生效的作用域。 <tt>@exclude-match</tt> 定义了脚本不应生效的作用域，类似 <tt>@exclude</tt>。
+        <br /><br />
+        例如:<br />
+        <tt>
+        // @match https://www.google.com/something <br />
+        // @match https://www.google.com/any/* <br />
+        // @exclude-match https://www.google.com/any/not_me
+        </tt>
+        <br /><br />
+    ]]></string>
+    <string name="toast_install_script_successfully">安装 \"%1$s\" 成功！</string>
+    <string name="toast_install_script_failed_unknown">安装 \"%1$s\" 失败！</string>
+    <string name="toast_install_script_failed_dependency_error">下载 \"%1$s\" 依赖失败！</string>
+    <string name="title_install_script">安装脚本</string>
+    <string name="message_install_script">你确认安装 \"%1$s\"(%2$s) 吗？</string>
+    <string name="title_reinstall_script">重新安装脚本</string>
+    <string name="message_reinstall_script">你确认重新安装 \"%1$s\"(%2$s) 吗？</string>
+    <string name="title_update_script">更新脚本</string>
+    <string name="message_update_script">你确认更新脚本 \"%1$s\"(%2$s -> %3$s) 吗？</string>
+    <string name="toast_parsing_script">解析脚本中…</string>
+    <string name="title_add_metadata_block">添加 Metadata 块</string>
+    <string name="message_add_metadata_block">此脚本没有 Metadata 块所以无法保存。您想要为其添加一个默认的 Metadata 块吗？</string>
+    <string name="title_disable_safe_browsing">禁用安全浏览</string>
+    <string name="title_close_all_tabs">关闭所有标签</string>
+    <string name="message_close_all_tabs_before_disabling_incognito_mode">你想要在退出隐身模式前，关闭所有标签吗？</string>
+    <string name="action_close">关闭</string>
+    <string name="action_keep">保留</string>
+    <string name="desc_bookmark_folder">%1$s 文件夹</string>
+    <string name="message_splash_agreement">在使用 Via 前，你需要认真阅读并同意我们的 %1$s 和 %2$s。</string>
+    <string name="translation_engine_google_in_page">谷歌页内翻译</string>
+    <string name="title_feedback">意见反馈</string>
+    <string name="action_view_cookies">查看 Cookies</string>
+    <string name="title_cookies_for_site">%1$s 的 Cookies</string>
+    <string name="message_no_cookies">无 Cookies。</string>
+    <string name="toast_cookies_for_site_cleared">已置空 %1$s 的 Cookies</string>
+    <string name="toast_site_does_not_support_resource_sniffing">该站点不支持资源嗅探</string>
+    <string name="desc_expand_text">展开文本</string>
+    <string name="desc_collapse_text">折叠文本</string>
+    <string name="desc_clear_text">清除文本</string>
+    <string name="title_search_suggestions">搜索建议</string>
+    <string name="message_search_suggestions">使用地址栏时，从下列内容获取建议</string>
+    <string name="title_open_tabs">标签页</string>
+    <string name="desc_fill_in_text">填入文本</string>
+    <string name="directory_name">目录名称</string>
+    <string name="action_default_location">默认目录</string>
+    <string name="action_choose_folder">选择一个目录…</string>
+    <string name="title_permission_denied">没有权限</string>
+    <string name="message_reselect_download_location">下载目录的存储权限已被撤销。请重新选择下载目录。</string>
+    <string name="detect_language">检测语言</string>
+    <string name="title_source_language">源语言</string>
+    <string name="title_target_language">目标语言</string>
+    <string name="desc_swap_language">交换语言</string>
+    <string name="desc_paste_text">粘贴文本</string>
+    <string name="translation_engine_google_text">谷歌文本翻译</string>
+    <string name="sourcenao_url">SourceNAO</string>
+    <string name="iqdb_url">IQDB</string>
+    <string name="iqdb_3d_url">3D IQDB</string>
+    <string name="whatanime_url">WhatAnime</string>
+    <string name="ascii2d_url">Ascii2D</string>
+    <string name="title_scripts_for_site">作用于 %1$s 的脚本</string>
+    <string name="disabled">已禁用</string>
+    <string name="enabled">已启用</string>
+    <string name="action_view_in_settings">在设置中查看</string>
+    <string name="message_delete_following_items">你确认删除下列条目吗？</string>
+    <string name="list_item">• %1$s</string>
+    <string name="action_reset">重置</string>
+    <string name="title_reset_site_conf">重置站点设定</string>
+    <string name="message_reset_site_conf">你确认重置 %1$s 的站点设定吗？</string>
+    <string name="title_ignore_ssl_warnings">忽略 SSL 证书警告</string>
+    <string name="title_ignore_ssl_warnings_description">请小心，忽略 SSL 证书警告可能会使网站的链接不安全</string>
+    <string name="message_ignore_ssl_warnings">SSL 证书用于验证网站身份和加密链接。这就像是把信放在信封中再寄出，只有你和网站可以拆开这封信。\n\n一旦你忽略 SSL 警告，则与网站的链接可能不安全，这意味着与网站传输的数据可能被人窃取。这就像把信放在一个破损的信封上然后寄出它，伪造证书的人可以拆开它。</string>
+    <string name="title_ignore_ssl_warnings_confirmation">我了解这可能导致链接不安全</string>
+    <string name="title_disable_safe_browsing_description">安全浏览允许 WebView 通过验证链接来防止恶意软件和网络钓鱼攻击</string>
+    <string name="action_close_all_tabs">关闭所有标签页</string>
+    <string name="action_close_other_tabs">关闭其它标签页</string>
+    <string name="action_close_tabs_to_the_bottom">关闭下方标签页</string>
+    <string name="action_close_tabs_to_the_top">关闭上方标签页</string>
 </resources>

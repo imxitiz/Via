@@ -75,12 +75,12 @@
     <string name="google_url">Google</string>
     <string name="sougou_url">搜狗</string>
     <string name="block_ads">封鎖廣告</string>
-    <string name="message_untrusted_certificate">此網站的憑證不受信任，是否仍要繼續?</string>
-    <string name="message_date_invalid_certificate">此網站的憑證日期無效，是否仍要繼續?</string>
-    <string name="message_expired_certificate">此網站的憑證已過期，是否仍要繼續?</string>
-    <string name="message_hostname_mismatch_certificate">此網站的憑證與主機名稱不匹配，是否仍要繼續?</string>
-    <string name="message_invalid_certificate">此網站的憑證無效，是否仍要繼續?</string>
-    <string name="message_not_yet_valid_certificate">此網站的憑證未生效，是否仍要繼續?</string>
+    <string name="message_untrusted_certificate">此網站的憑證不受信任，是否仍要繼續？</string>
+    <string name="message_date_invalid_certificate">此網站的憑證日期無效，是否仍要繼續？</string>
+    <string name="message_expired_certificate">此網站的憑證已過期，是否仍要繼續？</string>
+    <string name="message_hostname_mismatch_certificate">此網站的憑證與主機名稱不匹配，是否仍要繼續？</string>
+    <string name="message_invalid_certificate">此網站的憑證無效，是否仍要繼續？</string>
+    <string name="message_not_yet_valid_certificate">此網站的憑證未生效，是否仍要繼續？</string>
     <string name="title_form_resubmission">重新送出表單</string>
     <string name="message_form_resubmission">你確定重新傳送資料嗎？</string>
     <string name="message_location">\n想使用你的位置資訊</string>
@@ -95,7 +95,7 @@
     <string name="image_on">顯示圖片</string>
     <string name="title_file_chooser">檔案選擇</string>
     <string name="import_bookmarks">匯入書籤</string>
-    <string name="export_bookmarks_to">書籤已匯出至: %1$s</string>
+    <string name="export_bookmarks_to">書籤已匯出至：%1$s</string>
     <string name="import_bookmark_error">無法自檔案匯入書籤</string>
     <string name="message_add_bookmark">已成功新增書籤</string>
     <string name="message_exit">再按一次結束</string>
@@ -187,7 +187,7 @@
     <string name="action_save_web_page">儲存網頁</string>
     <string name="action_saved_pages">已儲存網頁</string>
     <string name="saved_page_successfully">網頁已儲存到\"書籤 > 儲存網頁\"中</string>
-    <string name="deleted_failed">刪除失敗，此檔案位於下載路徑: </string>
+    <string name="deleted_failed">刪除失敗，此檔案位於下載路徑：</string>
     <string name="empty_hint">空空如也&#8230;</string>
     <string name="network_log">網路記錄檔</string>
     <string name="conn_timeout">連線逾時</string>
@@ -205,7 +205,7 @@
     <string name="restore_tabs">啟動時還原上次未關閉的分頁</string>
     <string name="install_success">安裝成功！</string>
     <string name="uninstall_success">解除安裝成功！</string>
-    <string name="log_page_hint">封鎖清單在 %1$s\n你可以編輯這個清單, 或長按下列項目以選擇是否封鎖。</string>
+    <string name="log_page_hint">封鎖清單在 %1$s\n你可以編輯這個清單，或長按下列項目以選擇是否封鎖。</string>
     <string name="fullscreen_1">捲動以顯示/隱藏</string>
     <string name="fullscreen_2">按下以顯示/隱藏</string>
     <string name="settings_script">指令碼</string>
@@ -248,10 +248,10 @@
     <string name="ui_traditional">傳統</string>
     <string name="color_mode_hint">工具列自動調整色彩</string>
     <string name="skin_hide_search_part">隱藏搜尋部分</string>
-    <string name="file_size">檔案大小: %1$s</string>
+    <string name="file_size">檔案大小：%1$s</string>
     <string name="search_by_image">透過圖片搜尋</string>
     <string name="resource_sniffer">資源監聽</string>
-    <string name="res_log_hint">按下項目進行預覽，或者長按此項目下載或進行其他操作。</string>
+    <string name="res_log_hint">下列是網頁載入中的資源記錄檔。</string>
     <string name="no_resource">此頁面無資源。</string>
     <string name="no_network_log">此頁面無網路記錄檔。</string>
     <string name="resource_sniffer_hint">\n在播放音樂或影片時，更容易偵測媒體檔案。在部分網站資源監聽無法運作。</string>
@@ -308,8 +308,8 @@
     <string name="server_message">伺服器間的資料不同步，切換後將需要重新登入。</string>
     <string name="delete_bookmark_folder_message">這將同時刪除 %1$s 資料夾裡的書籤，確定要刪除嗎？</string>
     <string name="action_new">新增</string>
-    <string name="block_hint">封鎖了: %1$s\n重新整理網頁生效。</string>
-    <string name="unblock_hint">解封了: %1$s\n重新整理網頁生效。</string>
+    <string name="block_hint">封鎖了：%1$s\n重新整理網頁生效。</string>
+    <string name="unblock_hint">解封了：%1$s\n重新整理網頁生效。</string>
     <string name="block_3rd_party_cookies">封鎖第三方 Cookie</string>
     <string name="enable_site_conf">啟用 \"%1$s\" 網站設定</string>
     <string name="site_conf">網站設定</string>
@@ -548,7 +548,7 @@
     <string name="download_failed_with_code">下載失敗：%1$s (%2$d)</string>
     <string name="built_in_download_manager">內建下載器</string>
     <string name="cancel_all">取消全選</string>
-    <string name="message_delete_selected_download_tasks">你確定刪除這些下載任務嗎 (總共 %1$d 個任務)?</string>
+    <string name="message_delete_selected_download_tasks">你確定刪除這些下載任務嗎 (總共 %1$d 個任務)？</string>
     <string name="file_name">檔名</string>
     <string name="rename">重新命名</string>
     <string name="download_error_file_io">I/O 錯誤</string>
@@ -600,4 +600,129 @@
     <string name="toutiao_url">頭條</string>
     <string name="title_can_not_be_empty">標題不能為空</string>
     <string name="user_agent_can_not_be_empty">使用者代理不能為空</string>
+    <string name="download_filter_all">全部</string>
+    <string name="download_filter_others">其它</string>
+    <string name="download_filter_documents">文件</string>
+    <string name="download_filter_images">圖片</string>
+    <string name="download_filter_video">影片</string>
+    <string name="download_filter_apk">安裝包</string>
+    <string name="download_filter_audio">音訊</string>
+    <string name="download_filter_archives">壓縮包</string>
+    <string name="simple_guide_of_writing_userscript"><![CDATA[
+        <b>Metadata 塊</b><br />
+        Metadata 必須使用如下格式:<br />
+        <tt>
+        // ==UserScript==<br />
+        // @key value<br />
+        // ==/UserScript==
+        </tt>
+        <br /><br />
+        <b><tt>@name</tt></b>：指令碼名稱。
+        <br /><br />
+        <b><tt>@namespace</tt></b>：<tt>@namespace</tt> 和 <tt>@name</tt> 是指令碼的唯一 ID。
+        <br /><br />
+        <b><tt>@match/@exclude-match</tt></b>：定義了指令碼的作用域。推薦使用 <tt>@match</tt> 而不是 <tt>@include</tt>。
+        <br /><br />
+        <b><tt>@include/@exclude</tt></b>：舊版本中定義作用域的方式。
+        <br /><br />
+        <b><tt>@version</tt></b>：指令碼版本。
+        <br /><br />
+        <b><tt>@description</tt></b>：指令碼描述。
+        <br /><br />
+        <b><tt>@author</tt></b>：指令碼作者。
+        <br /><br />
+        <b><tt>@require</tt></b>：指令碼的前置依賴，例如： <br /><tt>// @require https://my.cdn.com/jquery.js</tt>。
+        <br /><br />
+        <b><tt>@run-at</tt></b>：指令碼的執行時機。 <tt>document-start</tt> 用於在頁面載入前注入指令碼， <tt>document-end</tt> 用於在頁面載入完成後注入指令碼。
+        <br /><br />
+        <b><tt>@grant</tt></b>：定義指令碼所使用和應被授權的特殊 GM_* API。<br />
+        <br /><br />
+        <b><tt>@downloadURL</tt></b>：指令碼的下載地址。
+        <br /><br />
+        <b><tt>@supportURL</tt></b>：指令碼的支援地址。
+        <br /><br />
+        <b><tt>@homepageURL</tt></b>：指令碼的主頁。
+        <br /><br />
+        <b>GM_* API</b><br />
+        <tt>GM_*</tt> 是一組 Via 提供的特殊 API 集合。當前支援的特殊 API 包括：<br/>
+        <tt>GM_getValue/GM_setValue/GM_deleteValue/GM_listValues/GM_getResourceText/GM_getResourceURL/GM_addElement/GM_addStyle/GM_setClipboard/GM_xmlhttpRequest/GM_download</tt>.
+        <br /><br />
+        <b>匹配</b><br />
+        <tt>@match</tt> 定義了指令碼生效的作用域。 <tt>@exclude-match</tt> 定義了指令碼不應生效的作用域，類似 <tt>@exclude</tt>。
+        <br /><br />
+        例如:<br />
+        <tt>
+        // @match https://www.google.com/something <br />
+        // @match https://www.google.com/any/* <br />
+        // @exclude-match https://www.google.com/any/not_me
+        </tt>
+        <br /><br />
+    ]]></string>
+    <string name="toast_install_script_successfully">安裝 \"%1$s\" 成功！</string>
+    <string name="toast_install_script_failed_unknown">安裝 \"%1$s\" 失敗！</string>
+    <string name="toast_install_script_failed_dependency_error">下載 \"%1$s\" 依賴失敗！</string>
+    <string name="title_install_script">安裝指令碼</string>
+    <string name="message_install_script">你確定安裝 \"%1$s\"(%2$s) 嗎？</string>
+    <string name="title_reinstall_script">重新安裝指令碼</string>
+    <string name="message_reinstall_script">你確定重新安裝 \"%1$s\"(%2$s) 嗎？</string>
+    <string name="title_update_script">更新指令碼</string>
+    <string name="message_update_script">你確定更新指令碼 \"%1$s\"(%2$s -> %3$s) 嗎？</string>
+    <string name="toast_parsing_script">解析指令碼中…</string>
+    <string name="title_add_metadata_block">新增 Metadata 塊</string>
+    <string name="message_add_metadata_block">此指令碼沒有 Metadata 塊所以無法儲存。您想要為其新增一個預設的 Metadata 塊嗎？</string>
+    <string name="title_disable_safe_browsing">禁用安全瀏覽</string>
+    <string name="title_close_all_tabs">關閉所有分頁</string>
+    <string name="message_close_all_tabs_before_disabling_incognito_mode">你想要在退出無痕模式前，關閉所有分頁嗎？</string>
+    <string name="action_close">關閉</string>
+    <string name="action_keep">保留</string>
+    <string name="desc_bookmark_folder">%1$s 資料夾</string>
+    <string name="message_splash_agreement">在使用 Via 前，你需要認真閱讀並同意我們的 %1$s 和 %2$s。</string>
+    <string name="translation_engine_google_in_page">谷歌頁內翻譯</string>
+    <string name="title_feedback">意見反饋</string>
+    <string name="action_view_cookies">檢視 Cookies</string>
+    <string name="title_cookies_for_site">%1$s 的 Cookies</string>
+    <string name="message_no_cookies">無 Cookies。</string>
+    <string name="toast_cookies_for_site_cleared">已置空 %1$s 的 Cookies</string>
+    <string name="toast_site_does_not_support_resource_sniffing">該網站不支援資源監聽</string>
+    <string name="desc_expand_text">展開文字</string>
+    <string name="desc_collapse_text">摺疊文字</string>
+    <string name="desc_clear_text">清除文字</string>
+    <string name="title_search_suggestions">搜尋建議</string>
+    <string name="message_search_suggestions">使用位址列時，從下列內容獲取建議</string>
+    <string name="title_open_tabs">分頁</string>
+    <string name="desc_fill_in_text">填入文字</string>
+    <string name="directory_name">路徑名稱</string>
+    <string name="action_default_location">預設路徑</string>
+    <string name="action_choose_folder">選擇一個路徑…</string>
+    <string name="title_permission_denied">沒有許可權</string>
+    <string name="message_reselect_download_location">下載路徑的儲存許可權已被撤銷。請重新選擇下載路徑。</string>
+    <string name="detect_language">檢測語言</string>
+    <string name="title_source_language">源語言</string>
+    <string name="title_target_language">目標語言</string>
+    <string name="desc_swap_language">交換語言</string>
+    <string name="desc_paste_text">貼上文字</string>
+    <string name="translation_engine_google_text">谷歌文字翻譯</string>
+    <string name="sourcenao_url">SourceNAO</string>
+    <string name="iqdb_url">IQDB</string>
+    <string name="iqdb_3d_url">3D IQDB</string>
+    <string name="whatanime_url">WhatAnime</string>
+    <string name="ascii2d_url">Ascii2D</string>
+    <string name="title_scripts_for_site">作用於 %1$s 的指令碼</string>
+    <string name="disabled">已禁用</string>
+    <string name="enabled">已啟用</string>
+    <string name="action_view_in_settings">在設定中檢視</string>
+    <string name="message_delete_following_items">你確定刪除下列項目嗎？</string>
+    <string name="list_item">• %1$s</string>
+    <string name="action_reset">重置</string>
+    <string name="title_reset_site_conf">重置網站設定</string>
+    <string name="message_reset_site_conf">你確定重置 %1$s 的網站設定嗎？</string>
+    <string name="title_ignore_ssl_warnings">忽略 SSL 證書警告</string>
+    <string name="title_ignore_ssl_warnings_description">請小心，忽略 SSL 證書警告可能會使網站的連結不安全</string>
+    <string name="message_ignore_ssl_warnings">SSL 證書用於驗證網站身份和加密連結。這就像是把信放在信封中再寄出，只有你和網站可以拆開這封信。\n\n一旦你忽略 SSL 警告，則與網站的連結可能不安全，這意味著與網站傳輸的資料可能被人竊取。這就像把信放在一個破損的信封上然後寄出它，偽造證書的人可以拆開它。</string>
+    <string name="title_ignore_ssl_warnings_confirmation">我瞭解這可能導致連結不安全</string>
+    <string name="title_disable_safe_browsing_description">安全瀏覽允許 WebView 透過驗證連結來防止惡意軟體和網路釣魚攻擊</string>
+    <string name="action_close_all_tabs">關閉所有分頁</string>
+    <string name="action_close_other_tabs">關閉其它分頁</string>
+    <string name="action_close_tabs_to_the_bottom">關閉下方分頁</string>
+    <string name="action_close_tabs_to_the_top">關閉上方分頁</string>
 </resources>
